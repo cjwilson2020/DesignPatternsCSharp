@@ -77,6 +77,26 @@ namespace DesignPatterns
 				Console.WriteLine($" - {p.Name} is large and blue");
 			}
 
+
+			/**
+			 *  Should always be able to upcast to your base type and the operation should still behave as expected
+			 *  
+			 *  Iff there is an override,
+			 *  make the property virtual to use the v-table 
+			 */
+
+			/**
+			 *  Interface Segregation Principle
+			 *  
+			 *  Problem: Building interfaces that are too large. 
+			 *  Need to be segregated so that people implementing the interface 
+			 *  don't implement any functions that they don't need TOIL
+			 *  
+			 *  Separate interface to be smaller more atomic (IPrinter IScanner)
+			 *  Photocopier : Implements IPrinter, IScanner 
+			 *  
+			 *  Dependency Inversion Principle
+			 */
 		}
 	}
 }
