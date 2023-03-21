@@ -7,4 +7,29 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Singleton\" />
+    <Folder Include="Adapter\" />
+    <Folder Include="Bridge\" />
+    <Folder Include="Composite\" />
+    <Folder Include="Decorator\" />
+    <Folder Include="Fascade\" />
+    <Folder Include="Flyweight\" />
+    <Folder Include="Proxy\" />
+    <Folder Include="ChainOfResponsibility\" />
+    <Folder Include="Command\" />
+    <Folder Include="Interpreter\" />
+    <Folder Include="Iterator\" />
+    <Folder Include="Mediator\" />
+    <Folder Include="Memento\" />
+    <Folder Include="NullObject\" />
+    <Folder Include="Observer\" />
+    <Folder Include="State\" />
+    <Folder Include="Strategy\" />
+    <Folder Include="TemplateMethod\" />
+    <Folder Include="Visitor\" />
+    <Folder Include="Prototype\" />
+    <Folder Include="Factories\" />
+  </ItemGroup>
+
 </Project>
